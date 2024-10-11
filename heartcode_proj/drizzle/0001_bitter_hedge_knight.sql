@@ -1,0 +1,1 @@
+ALTER TABLE "users" RENAME TO "heartcode-db_users";
