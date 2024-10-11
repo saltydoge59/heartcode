@@ -63,7 +63,7 @@ export default function Quiz() {
 
 
 	return (
-		<div className="relative flex mt-8 justify-center overflow-hidden">
+		<div className="relative flex mt-8 justify-center">
 			<Boxes className="absolute inset-0 z-0"/>
     	<Form {...form}>
         	<form onSubmit={form.handleSubmit(onSubmit)} className="w-2/3 space-y-6">
