@@ -8,7 +8,7 @@ import React, { useEffect } from "react";
 
 
 export default function home() {
-  const words : string[]=["ice","cocaine",'meth','heroin','alcohol','nicotine','(butt)crack'];
+  const words : string[]=["ice","cocaine",'meth','heroin','alcohol','nicotine','crack'];
   return (
     <div>
        <Vortex
@@ -19,7 +19,7 @@ export default function home() {
         className="flex items-center flex-col justify-center px-2 md:px-10  py-4 w-full h-full"
       >
     <div className="flex flex-col h-dvh justify-center  items-center">
-      <h1 className="font-bold text-5xl text-start mx-3">I love <FlipWords words={words} duration={1}/></h1>
+      <h1 className="font-bold text-5xl text-start mx-3">Don't do <FlipWords words={words} duration={1}/>!</h1>
     </div>
     </Vortex>
     </div>
